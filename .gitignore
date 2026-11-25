@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Model files
+*.pt
+*.onnx
+*.rknn
+
+# Dataset
+dataset/raw/
+
+# Build
+build/
+deploy/build/
+*.o
+*.so
+
+# Results
+results/images/*
+results/videos/*
+results/logs/*
+
+# IDE
+.vscode/
+.idea/
